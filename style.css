@@ -165,7 +165,7 @@ nav {
     padding: 0 8%;
     position: fixed;
     z-index: 999;
-    background-color: rgba(245, 227, 227,0.8);
+    background-color: rgba(245, 227, 227,0.3);
     border-bottom: 1px solid #3d7ab8;
     border-radius: 30px;
 }
@@ -618,14 +618,14 @@ nav button:hover {
 
  .bannerThree {
     width: 100%;
-    background-image: url(image/tknvlt.png);
-    background-size: 50%;
+    background-image: url(image/background-white-site.jpg);
+    background-size: 100%;
     background-position: left top;
     background-repeat: no-repeat;
     position: relative;
     z-index: 0;
     border-radius: 10px;
-    background-color: #131325;
+    background-color: #ffffff8b;
  }
 
  .text {
@@ -635,10 +635,6 @@ nav button:hover {
     align-items: center;
     flex-direction: column;
     gap: 40px;
-    background-image: url(image/vbjbj\ \(1\).png);
-    background-size: 50%;
-    background-position: left top;
-    background-repeat: no-repeat;
     padding: 40px 0px;
  }
 
@@ -646,7 +642,7 @@ nav button:hover {
     font-size: 4rem;
     width: 80%;
     text-align: center;
-    color: #ffffff8b;
+    color: var(--primary-color);
  }
 
  footer {
