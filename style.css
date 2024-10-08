@@ -628,6 +628,71 @@ nav button:hover {
     background-color: #ffffff8b;
  }
 
+ .store-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .store-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .store-button img.store-logo {
+    height: 40px;
+    
+    margin-right: 10px;
+  }
+  
+  .store-text span {
+    display: flex;
+    font-size: 12px;
+    color: #333;
+  }
+  
+  .store-text strong {
+    font-size: 18px;
+    color: #000;
+  }
+  
+  .store-button.apple {
+    background-image: url('image/App_Store_Badge.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center; /* Posiciona o logo à esquerda */
+    padding-left: 60px; /* Cria espaço para o logo */
+    background-color: #4285F4;
+    color: #fff;
+    width:200px;
+  }
+  
+  .store-button.apple:hover {
+    background-color: #333;
+  }
+  
+  .store-button.google {
+    background-image: url('image/logo-google.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:  center; /* Posiciona o logo à esquerda */
+    padding-left: 60px; /* Cria espaço para o logo */
+    background-color: #4285F4;
+    color: #fff;
+    width:200px;
+  }
+  
+  .store-button.google:hover {
+    background-color: #357ae8;
+  }
+  
+
  .text {
     width: 100%;
     display: flex;
